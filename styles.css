@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #0c7a3e);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#leon-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #059e5e;
+    margin-bottom: 10px;
+}
+
+#leon-age {
+    background: #37b882;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#leon-bday {
+    margin: 0;
+    background: #37b882;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.memories {
+    margin-top: 50px;
+}
+
+.memory-title {
+    margin-bottom: 10px;
+}
+
+.memory-hint {
+    margin-top: 0px;
+}
+
+#memories-img-love {
+    height: 250px;
+}
+
+.memories-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/memories.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#memories-img-motorcycle:hover {
+    background-image: url("images/motercyclehero.gif");   
+}
+#memories-img-school:hover {
+    background-image: url("images/school-attendance.gif"); 
+}
+#memories-img-crashing:hover {
+    background-image: url("images/crashing_into-learning.gif"); 
+}
+#memories-img-london:hover {
+    background-image: url("images/london.gif"); 
+}
+#memories-img-openclosed:hover {
+    background-image: url("images/open_closed.gif"); 
+}
+#memories-img-found:hover {
+    background-image: url("images/found_his_princess.gif");
+}
+#memories-img-kids:hover {
+    background-image: url("images/Untitled\ video.gif");
+}
+#memories-img-love:hover {
+    background-image: url("images/i_love_u_dad.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
